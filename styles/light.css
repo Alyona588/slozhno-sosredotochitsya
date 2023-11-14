@@ -37,7 +37,7 @@
 
 @media (max-width: 900px) {
   .theme_light .title {
-  text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
+    text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
   }
 
   .theme_light .footer__card-title {
@@ -46,10 +46,10 @@
 }
 
 @media (prefers-color-scheme: light) {  
-
+  
   @media (max-width: 900px) {
     .title {
-    text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
+      text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
     }
 
     .footer__card-title {
