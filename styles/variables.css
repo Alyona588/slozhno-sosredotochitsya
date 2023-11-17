@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: 'IBM Plex mono', sans-serif;
+  --main-font: "IBM Plex mono", sans-serif;
   --main-font-weight: normal;
   --accent-font-weight: bold;
   --font-size: 18px;
@@ -13,11 +13,12 @@
   --gap-images: 10px;
   --last-image-margin: 40px;
   --subtitle-text-color: #000028;
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
-  --text-color: #F1B2CE;
-  --menu-color: #FF0070;
-  --shadow_and_bg-color: #FF0070;
-  --content-title-color:#FF0070;
-
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --menu-color: #ff0070;
+  --shadow_and_bg-color: #ff0070;
+  --content-title-color: #ff0070;
+  --link-border: #f1b2ce;
+  --background-image: url(../images/cover-image-dark.png);
 }

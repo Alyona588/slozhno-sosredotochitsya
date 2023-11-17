@@ -2,26 +2,16 @@
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему*/
-:root {
-  --text-color: #353430;
-  --accent-color: #FF0070;
-  --title-color: #FFC2E6;
-  --shadow_and_bg-color: #FF8DCB; 
-  --subtitle-text-color: #353430;
-  --content-title-color: #353430;
-  --menu-color: #353430;
-  --background-image: url(../images/cover-image-light.png);
-
-}
 
 .page.theme_light {
   --text-color: #353430;
-  --accent-color: #FF0070;
-  --title-color: #FFC2E6;
-  --shadow_and_bg-color: #FF8DCB; 
+  --accent-color: #ff0070;
+  --title-color: #ffc2e6;
+  --shadow_and_bg-color: #ff8dcb;
   --subtitle-text-color: #353430;
   --content-title-color: #353430;
   --menu-color: #353430;
+  --link-border: #353430;
   --background-image: url(../images/cover-image-light.png);
 
   background-image: var(--background-image);
@@ -32,12 +22,12 @@
 }
 
 .theme_light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  border: 1px solid rgba(50, 49, 45, 0.4);
 }
 
 @media (max-width: 900px) {
   .theme_light .title {
-    text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
+    text-shadow: 4px 4px 0px var(--shadow_and_bg-color);
   }
 
   .theme_light .footer__card-title {
@@ -45,41 +35,29 @@
   }
 }
 
-@media (prefers-color-scheme: light) {  
-  
+@media (prefers-color-scheme: light) {
   @media (max-width: 900px) {
     .title {
-      text-shadow: 4px 4px 0px var(--shadow_and_bg-color); 
+      text-shadow: 4px 4px 0px var(--shadow_and_bg-color);
     }
 
     .footer__card-title {
       text-shadow: 2px 2px 0px var(--shadow_and_bg-color);
     }
   }
-  :root  {
+  :root {
     --text-color: #353430;
-    --accent-color: #FF0070;
-    --title-color: #FFC2E6;
-    --shadow_and_bg-color: #FF8DCB; 
+    --accent-color: #ff0070;
+    --title-color: #ffc2e6;
+    --shadow_and_bg-color: #ff8dcb;
     --subtitle-text-color: #353430;
     --content-title-color: #353430;
     --menu-color: #353430;
+    --link-border: #353430;
     --background-image: url(../images/cover-image-light.png);
   }
 
   .page {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-    --text-color: #353430;
-    --accent-color: #FF0070;
-    --title-color: #FFC2E6;
-    --shadow_and_bg-color: #FF8DCB; 
-    --subtitle-text-color: #353430;
-    --content-title-color: #353430;
-    --menu-color: #353430;
-    --background-image: url(../images/cover-image-light.png);
     background-image: var(--background-image);
   }
 
@@ -88,7 +66,6 @@
   }
 
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
+    border: 1px solid rgba(50, 49, 45, 0.4);
   }
-
 }
