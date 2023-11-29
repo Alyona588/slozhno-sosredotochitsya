@@ -65,4 +65,8 @@
   .decoration_element {
     display: none;
   }
+  
+  .theme_dark .decoration_element {
+    display: block;
+  }
 }
